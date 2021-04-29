@@ -6,6 +6,9 @@
 }
 
 body {border-style: groove;
+	max-width: 800px;
+	padding-top: 10px;
+	margin: auto;
 }
 
 ul, li {text-align: left;
