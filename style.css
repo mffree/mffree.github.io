@@ -1,15 +1,22 @@
 * {color: White;
-	text-align: center;
+	text-align: left;
 	background-color: Teal;
 	font-family: Monaco, Helvetica, "Sans-serif";
-	font-weight: bold;
 }
+
+h1 {font-size: 16px;
+	text-decoration: underline;
+	}
 
 body {border-style: groove;
 	max-width: 800px;
-	padding-top: 10px;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
 	margin: auto;
 }
+
 
 ul, li {text-align: left;
 }
