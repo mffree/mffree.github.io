@@ -1,23 +1,36 @@
+/* Universal styling */
 * {color: White;
 	text-align: left;
-	background-color: Teal;
+	background-color: rgb(2, 81, 81);
 	font-family: Monaco, Helvetica, "Sans-serif";
 }
 
-h1 {font-size: 18px;
+/* Styling for the section headers */
+h1 {font-size: 20px;
 	}
 
+/* Styling for the entire body */
 body {border-style: groove;
 	max-width: 800px;
 	padding-top: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-bottom: 50px;
 	margin: auto;
 }
 
-
+/* Styling for the bulleted list of shows */
 ul, li {text-align: left;
+}
+
+/* Styling for the opening image of me */
+#portrait {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border: 3px solid #ddd;
+	border-radius: 50px	
 }
 
 
